@@ -13,32 +13,170 @@
     <!-- Header Section -->
     <header>
         <div class="header-nav">
-            <div class="navbar">
+            <div class="navbar display-flex">
                 <div class="logo">
                     <h3>Influencer products</h3>
                 </div>
                 <div class="nav">
-                    <ul>
+                    <ul class="display-flex">
                         <li><a href="#">Home</a></li>
                         <li><a href="#">Products</a></li>
                         <li><a href="#">Sign up</a></li>
                         <li><a href="#">Log In</a></li>
-                        <img src="./logos/search.png" alt="">
-                        <img src="./logos/shopping-cart.png" alt="">
+                        <img class="search" src="./icons/search.png" alt="">
+                        <img class="shopping-cart" src="./icons/shopping-cart.png" alt="">
                     </ul>
                 </div>
+            </div>
+        </div>
+
+        <div class="header-banner display-flex">
+            <div class="banner-left">
+               <h1>Start your Journey as Influencer</h1>
+               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sem vestibulum sed scelerisque eros. Lectus faucibus.</p>
+               <button class="btn-top btn">Preebook now <i class="fa-solid fa-arrow-right"></i></button>
+            </div>
+
+            <div class="banner-right">
+               <img src="./images/main-camera.png" alt="">
+            </div>
+        </div>
+
+        <div class="header-sponsor display-flex">
+            <div class="sponsor-img">
+            <img src="./logos/Alibaba.svg" alt="">
+            <img src="./logos/Amazon.svg" alt="">
+            <img src="./logos/Daraz.pk Logo.svg" alt="">
+            <img src="./logos/Ebay.svg" alt="">
+            <img src="./logos/Rakuten.svg" alt="">
+            <img src="./logos/Walmart.svg" alt="">
+            <img src="./logos/Target.svg" alt="">
             </div>
         </div>
     </header>
 
     <!-- Main Section -->
     <main>
+       <!-- Popular Section Start -->
+       <section class="popular-container">
+        <div class="popular-title">
+            <h2>Popular Collection</h2>
+        </div>
 
+        <div class="popular-products">
+            <div class="popular-cart-details display-flex">
+            <div class="popular-cart">
+            <img src="./images/tripod.png" alt="">
+            <h3>Flix Tripod</h3>
+            <h4>$50.48</h4>
+            <h5><img src="./logos/stars.png" alt=""> 4.99</h5>
+            <h6>Wordwide shifting available Buyers protection possible!</h6>
+           </div>
+
+           <div class="popular-cart">
+            <img src="./images/mic.png" alt="">
+            <h3>Flix Tripod</h3>
+            <h4>$120.00</h4>
+            <h5><img src="./logos/stars.png" alt=""> 4.99</h5>
+            <h6>Wordwide shifting available Buyers protection possible!</h6>
+           </div>
+
+           <div class="popular-cart">
+            <img src="./images/airpod.png" alt="">
+            <h3>Flix Tripod</h3>
+            <h4>$100.00</h4>
+            <h5><img src="./logos/stars.png" alt=""> 4.99</h5>
+            <h6>Wordwide shifting available Buyers protection possible!</h6>
+           </div>
+            </div>
+
+            <div class="popular-cart-details display-flex">
+            <div class="popular-cart">
+            <img src="./images/drone.png" alt="">
+            <h3>Flix Tripod</h3>
+            <h4>$50.48</h4>
+            <h5><img src="./logos/stars.png" alt=""> 4.99</h5>
+            <h6>Wordwide shifting available Buyers protection possible!</h6>
+           </div>
+
+           <div class="popular-cart">
+            <img src="./images/lights.png" alt="">
+            <h3>Flix Tripod</h3>
+            <h4>$120.00</h4>
+            <h5><img src="./logos/stars.png" alt=""> 4.99</h5>
+            <h6>Wordwide shifting available Buyers protection possible!</h6>
+           </div>
+
+           <div class="popular-cart">
+            <img src="./images/setup.png" alt="">
+            <h3>Flix Tripod</h3>
+            <h4>$100.00</h4>
+            <h5><img src="./logos/stars.png" alt=""> 4.99</h5>
+            <h6>Wordwide shifting available Buyers protection possible!</h6>
+           </div>
+            </div>
+
+            <div class="popular-cart-details display-flex">
+            <div class="popular-cart">
+            <img src="./images/camera.png" alt="">
+            <h3>Flix Tripod</h3>
+            <h4>$50.48</h4>
+            <h5><img src="./logos/stars.png" alt=""> 4.99</h5>
+            <h6>Wordwide shifting available Buyers protection possible!</h6>
+           </div>
+
+           <div class="popular-cart">
+            <img src="./images/single-light.png" alt="">
+            <h3>Flix Tripod</h3>
+            <h4>$120.00</h4>
+            <h5><img src="./logos/stars.png" alt=""> 4.99</h5>
+            <h6>Wordwide shifting available Buyers protection possible!</h6>
+           </div>
+
+           <div class="popular-cart">
+            <img src="./images/action.png" alt="">
+            <h3>Flix Tripod</h3>
+            <h4>$100.00</h4>
+            <h5><img src="./logos/stars.png" alt=""> 4.99</h5>
+            <h6>Wordwide shifting available Buyers protection possible!</h6>
+           </div>
+            </div>
+        </div>
+
+        <div class="see-more">
+            <h3>See More <i class="fa-solid fa-arrow-right"></i></h3>
+        </div>
+       </section>
+       <!-- Popular Section End -->
+
+       <!-- Featured Section Start -->
+       <section class="featured-container display-flex">
+          <div class="featured-img">
+             <img src="./images/gear.png" alt="">
+          </div>
+          
+          <div class="featured-title">
+             <h2>Featured products at one place</h2>
+             <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+             <button class="btn-bottom btn">Join Now <i class="fa-solid fa-arrow-right"></i></button>
+          </div>
+       </section>  
+       <!-- Featured Section End -->
     </main>
 
     <!-- Footer Section -->
     <footer>
+        <section class="footer">
+            <h3>Influencer products</h3>
+            <p>Copyright @ 2025 Influencer products <br> All right reserved by - Shiful Islam.</p>
 
+            <div class="social-icon">
+                <img src="./icons/Instagram.png" alt="">
+                <img src="./icons/Dribbble.png" alt="">
+                <img src="./icons/Twitter.png" alt="">
+                <img src="./icons/Youtube.png" alt="">
+            </div>
+        </section>
     </footer>
 </body>
 </html>
