@@ -149,7 +149,9 @@ button i {
 
 .banner-right {
     background-image: url(./images/Circle\ design.svg);
-    object-fit: cover;
+    width: 475px;
+    height: 475px;
+    background-position: center;
     background-repeat: no-repeat;
 }
 
@@ -168,7 +170,7 @@ button i {
     margin: 36px 61px;
 }
 
-.header-sponsor img {
+.sponsor-img img {
     margin-left: 61px;
 }
 /* Header Styles End */
@@ -303,33 +305,120 @@ button i {
 @media screen and (max-width: 576px) {
     .header-nav {
         flex-direction: column;
+        margin-bottom: 50px;
     }
     .navbar {
         flex-direction: column;
-        width: 30%;
+        margin: 20px;
     }
 
     .logo h3 {
-        font-size: 20px;
+        font-size: 28px;
     }
 
     .nav ul {
-        gap: 10px;
+        gap: 15px;
     }
 
     .nav a {
-        width: 100%;
-        font-size: 14px !important;
+        font-size: 16px !important;
     }
 
-    .search {
-        width: 16px;
+    .nav .search {
+        width: 18px;
+        height: 18px;
+    }
+
+    .nav .shopping-cart {
+        width: 22px;
+        height: 22px;
     }
 
     .header-banner {
-        flex-direction: column;
-        width: 100%;
+        flex-direction: column-reverse;
         margin: 20px;
+    }
+
+    .banner-right {
+        display: flex;
+        justify-content: center;
+        width: 257px;
+        height: 257px;
+        background-size: 257px;
+    }
+
+    .banner-right img {
+        width: 202px;
+        height: 202px;
+    }
+
+    .banner-left {
+        margin: 20px;
+        text-align: center;
+    }
+
+    .banner-left h1 {
+        font-size: 34px;
+    }
+
+    .header-sponsor {
+        width: 100%;
+        margin-top: 0;
+        gap: ;
+    }
+
+    .sponsor-img {
+        margin: 40px 42px;
+        text-align: center;
+    }
+
+    .popular-container {
+        margin: 0px auto;
+    }
+
+    .popular-products {
+        
+    }
+
+    .popular-cart {
+    padding: 20px 20px;
+    }
+
+    .popular-container h2 {
+        margin-top: 20px;
+    }
+
+    .popular-cart-details, .featured-container {
+        flex-direction: column;
+    }
+
+    .popular-cart-details {
+        align-items: center;
+    }
+
+    .see-more h3 {
+        margin-right: 20px;
+    }
+
+    .featured-container {
+        flex-direction: column-reverse;
+    }
+
+    .featured-title {
+        text-align: center;
+        margin: 20px;
+    }
+
+    .featured-title button {
+        margin-top: 30px;
+    }
+
+    .featured-img img {
+        margin: -50px 0;
+    }
+
+    .featured-title h2 {
+        font-size: 28px;
     }
     
 }
